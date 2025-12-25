@@ -1,0 +1,115 @@
+{
+    "success": true,
+    "data": {
+        "site": {
+            "id": 1,
+            "themeId": 1,
+            "themeName": "Theme1",
+            "themeColor": "theme-dark",
+            "notificationCategoryId": 1
+        },
+        "systemSettings": {
+            "telegramLink": "https:\/\/t.me\/example",
+            "microsoftTeamsLink": "https:\/\/teams.microsoft.com\/example",
+            "redirectDomain": "https:\/\/re.com"
+        },
+        "categories": [
+            {
+                "id": 1,
+                "title": "En İyi Siteler",
+                "subtitle": "En iyi canlı casino oyunları",
+                "orderNum": 1,
+                "boards": [
+                    {
+                        "id": 1,
+                        "brandName": "Betboo",
+                        "brandImage": "https:\/\/via.assets.so\/img.jpg?w=120&h=40&bg=e5e7eb&f=gif",
+                        "title": "Hoş Geldin Bonusu",
+                        "prize": "500 TL",
+                        "prizeDescription": "Deneme Bonusu",
+                        "href": "\/betboo",
+                        "isPinned": true
+                    },
+                    {
+                        "id": 2,
+                        "brandName": "Bets10",
+                        "brandImage": "https:\/\/via.assets.so\/img.jpg?w=120&h=40&bg=e5e7eb&f=gif",
+                        "title": "Canlı Casino",
+                        "prize": "250 TL",
+                        "prizeDescription": "Deneme Bonusu",
+                        "href": "\/bets10",
+                        "isPinned": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "En Güvenilir Siteler",
+                "subtitle": "En iyi canlı casino oyunları",
+                "orderNum": 2,
+                "boards": []
+            },
+            {
+                "id": 3,
+                "title": "En Çok Ödeme Yapan Siteler",
+                "subtitle": "En iyi canlı casino oyunları",
+                "orderNum": 3,
+                "boards": []
+            }
+        ],
+        "textBanners": {
+            "header": [
+                {
+                    "id": 1,
+                    "title": "Hoş Geldin Bonusu",
+                    "href": "\/bonus",
+                    "orderNum": 1
+                }
+            ],
+            "footer": [
+                {
+                    "id": 2,
+                    "title": "Hoş Geldin Bonusu",
+                    "href": "\/bonus",
+                    "orderNum": 1
+                }
+            ]
+        },
+        "popups": {
+            "first": [
+                {
+                    "id": 1,
+                    "imageUrl": "https:\/\/via.assets.so\/img.jpg?w=400&h=200&bg=e5e7eb&f=gif",
+                    "href": "\/vip",
+                    "orderNum": 1,
+                    "isPinned": true
+                },
+                {
+                    "id": 2,
+                    "imageUrl": "https:\/\/via.assets.so\/img.jpg?w=400&h=200&bg=e5e7eb&f=gif",
+                    "href": "\/bonus",
+                    "orderNum": 2,
+                    "isPinned": false
+                }
+            ],
+            "bigSingle": [
+                {
+                    "id": 3,
+                    "imageUrl": "https:\/\/via.assets.so\/img.jpg?w=280&h=560&bg=e5e7eb&f=gif",
+                    "href": "\/big-campaign",
+                    "orderNum": 1,
+                    "isPinned": false
+                }
+            ],
+            "second": [
+                {
+                    "id": 4,
+                    "imageUrl": "https:\/\/via.assets.so\/img.jpg?w=400&h=200&bg=e5e7eb&f=gif",
+                    "href": "\/new-games",
+                    "orderNum": 1,
+                    "isPinned": false
+                }
+            ]
+        }
+    }
+}
