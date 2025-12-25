@@ -9,6 +9,7 @@ import PopupCarousel from '@/components/casino/PopupCarousel'
 import { getPopupSets, pickRandom, type PopupItem } from '@/utils/popupService'
 import siteData from '../../site.json'
 import { applyRedirectDomain } from '@/config/systemSettings'
+import PracticeLobby from '@/components/casino/PracticeLobby'
 
 type BoardCard = GameCardType
 
@@ -222,6 +223,8 @@ export default defineComponent(() => {
         <div class="min-h-[400px]">
           <GameGrid title={visibleBlocks.value.a.title} games={visibleBlocks.value.a.games} />
         </div>
+
+        <PracticeLobby />
 
         <Footer />
 
